@@ -4,4 +4,74 @@ title: "NTS Quarto"
 
 This is a Quarto website.
 
-To learn more about Quarto websites visit <https://quarto.org/docs/websites>.
+# Intro
+
+This Docusaurus manual documents the markup commands supported by the NTS Documents Docusaurus document type.
+
+The manual is divided into five chapters:
+
+- [Chapter 1: Design Items](#chapter-1-design-items)
+- [Chapter 2: Coding](#chapter-2-coding)
+- [Chapter 3: Media Content](#chapter-3-media-content)
+- [Chapter 4: Tables, Menus, and Trees](#chapter-4-tables-menus-and-trees)
+- [Chapter 5: Custom Blocks](#chapter-5-custom-blocks)
+
+The manual uses real Docusaurus MDX pages and small custom MDX components to demonstrate how our custom commands should look and behave.
+
+# Chapter 1: Design Items
+
+Design items are used to structure the page and make important information easier to read.
+
+This chapter covers:
+
+- headings
+- bullets
+- styled text
+- notes
+- accordions
+- columns
+
+## Headings
+
+Headings divide a document into sections.
+
+They also help create the **On This Page** navigation.
+
+```md
+# Document title
+## Main section
+### Subsection
+```
+***Rendered example***:
+
+# Document title example
+## Main section example
+### Subsection example
+
+Recommended usage:
+
+- Use `#` once for the main title.
+- Use `##` for main chapters or sections.
+- Use `###` for smaller sections.
+
+## Bullets
+
+Use normal Markdown bullets for lists.
+
+```md
+- First item
+- Second item
+- Third item
+```
+***Rendered example***:
+
+- First item
+- Second item
+- Third item
+
+## Bold and italic text
+
+```md
+This is **bold text**.
+This is *italic text*.
+```
