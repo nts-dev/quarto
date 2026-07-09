@@ -42,11 +42,6 @@ They also help create the **On This Page** navigation.
 ## Main section
 ### Subsection
 ```
-***Rendered example***:
-
-# Document title example
-## Main section example
-### Subsection example
 
 Recommended usage:
 
