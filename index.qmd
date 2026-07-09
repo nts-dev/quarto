@@ -6,7 +6,7 @@ This is a Quarto website.
 
 # Intro
 
-This Docusaurus manual documents the markup commands supported by the NTS Documents Docusaurus document type.
+This manual documents the markup commands supported by the NTS Documents document type.
 
 The manual is divided into five chapters:
 
@@ -15,8 +15,6 @@ The manual is divided into five chapters:
 - [Chapter 3: Media Content](#chapter-3-media-content)
 - [Chapter 4: Tables, Menus, and Trees](#chapter-4-tables-menus-and-trees)
 - [Chapter 5: Custom Blocks](#chapter-5-custom-blocks)
-
-The manual uses real Docusaurus MDX pages and small custom MDX components to demonstrate how our custom commands should look and behave.
 
 # Chapter 1: Design Items
 
