@@ -1,0 +1,9 @@
+services:
+  quarto:
+    build: .
+    container_name: quarto-site
+    ports:
+      - "5182:5182"
+    volumes:
+      - .:/project
+    restart: unless-stopped
